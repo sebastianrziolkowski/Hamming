@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b06ebb-daa7-4480-968e-16776c1e69d7" name="Default Changelist" comment="" />
+    <list default="true" id="54b06ebb-daa7-4480-968e-16776c1e69d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hamming-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hamming-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main$NumberTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main$NumberTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +25,11 @@
     <session id="-1373484084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -31,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5155" />
+          <entry key="JAVA" value="5382" />
           <entry key="Manifest" value="16" />
           <entry key="XML" value="10" />
         </counts>
@@ -39,30 +50,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="486">
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
               <folding>
-                <element signature="e#3735#3941#0" />
-                <element signature="e#4260#4752#0" />
                 <element signature="method#setTextField1#0;class#Main#0" />
                 <element signature="method#setTextField2#0;class#Main#0" />
                 <element signature="method#setTextField3#0;class#Main#0" />
                 <element signature="class#NumberTextField#0;class#Main#0" />
-                <element signature="e#5718#5719#0" expanded="true" />
-                <element signature="e#5771#5772#0" expanded="true" />
-                <element signature="e#6002#6003#0" expanded="true" />
-                <element signature="e#6047#6048#0" expanded="true" />
-                <element signature="e#6094#6095#0" expanded="true" />
-                <element signature="e#6150#6151#0" expanded="true" />
                 <element signature="method#oneDimensionalArray#0;class#Main#0" />
                 <element signature="method#twoDimensionalArray#0;class#Main#0" />
-                <element signature="method#IntArrayToString#0;class#Main#0" />
+                <element signature="method#IntArrayToString#1;class#Main#0" />
                 <element signature="method#Code#0;class#Main#0" />
-                <element signature="method#DeCode#0;class#Main#0" />
                 <element signature="method#wH#0;class#Main#0" />
               </folding>
             </state>
@@ -72,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="420">
               <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="139">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -113,14 +115,17 @@
       <find>System</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/RawMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -147,17 +152,20 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="61" />
     <option name="y" value="174" />
     <option name="width" value="1221" />
     <option name="height" value="667" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,22 +211,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hamming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hamming" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/sziolkowski/IdeaProjects/Hamming/src/test/java/Test.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544983785271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544983787568" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/Hamming-1.0.0.jar" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16113281" />
@@ -237,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.MavenJar">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Hamming" />
@@ -330,34 +331,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2977273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3068182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32866043" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3284553" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37235773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34747145" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32866043" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5011389" side_tool="true" weight="0.12878788" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" sideWeight="0.49886104" visible="true" weight="0.12878788" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3284553" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49886104" visible="true" weight="0.12878788" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5011389" side_tool="true" weight="0.12878788" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -378,46 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RawMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#3735#3941#0" />
-            <element signature="e#4260#4752#0" />
-            <element signature="method#setTextField1#0;class#Main#0" />
-            <element signature="method#setTextField2#0;class#Main#0" />
-            <element signature="method#setTextField3#0;class#Main#0" />
-            <element signature="class#NumberTextField#0;class#Main#0" />
-            <element signature="e#5718#5719#0" expanded="true" />
-            <element signature="e#5771#5772#0" expanded="true" />
-            <element signature="e#6002#6003#0" expanded="true" />
-            <element signature="e#6047#6048#0" expanded="true" />
-            <element signature="e#6094#6095#0" expanded="true" />
-            <element signature="e#6150#6151#0" expanded="true" />
-            <element signature="method#oneDimensionalArray#0;class#Main#0" />
-            <element signature="method#twoDimensionalArray#0;class#Main#0" />
-            <element signature="method#IntArrayToString#0;class#Main#0" />
-            <element signature="method#Code#0;class#Main#0" />
-            <element signature="method#DeCode#0;class#Main#0" />
-            <element signature="method#wH#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RawMain.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="420">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -427,8 +393,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="139">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+          <folding>
+            <element signature="method#setTextField1#0;class#Main#0" />
+            <element signature="method#setTextField2#0;class#Main#0" />
+            <element signature="method#setTextField3#0;class#Main#0" />
+            <element signature="class#NumberTextField#0;class#Main#0" />
+            <element signature="method#oneDimensionalArray#0;class#Main#0" />
+            <element signature="method#twoDimensionalArray#0;class#Main#0" />
+            <element signature="method#IntArrayToString#1;class#Main#0" />
+            <element signature="method#Code#0;class#Main#0" />
+            <element signature="method#wH#0;class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -114,7 +114,8 @@ public class Main extends Application {
         resultBox.setSpacing(30);
 
 
-        mainVBox.getChildren().addAll(buttonBox, text_description, hBoxH, inputBox, resultLabel, outputBox, resultBox);
+        mainVBox.getChildren().addAll(buttonBox, text_description, hBoxH, inputBox, resultLabel, resultBox);
+        //mainVBox.getChildren().addAll(outputBox);
         Scene scene = new Scene(mainVBox, 385, 355);
         stage.setResizable(false);
         stage.setScene(scene);
@@ -136,6 +137,9 @@ public class Main extends Application {
             int[] Xn = oneDimensionalArray(outputTextField);
             int[] Yn = new int[7];
             System.arraycopy(Xn, 0, Yn, 0, 7);
+            int[] ErroMessage = new int[4];
+            System.arraycopy(Xn, 0, ErroMessage, 0, 4);
+
 
             Random los = new Random();
             Random los_2 = new Random();
@@ -144,25 +148,48 @@ public class Main extends Application {
                 Yn[i] = (Yn[i] + 1) % 2;
 
             int[] resultArray = DeCode(twoDimensionalArray(textFields1, textFields2, textFields3), Yn);
-            resultdecodedL.setText(IntArrayToString(resultArray));
 
 
             int[] YnMessage = new int[4];
             System.arraycopy(Yn, 0, YnMessage, 0, 4);
 
 
-            if (Arrays.equals(resultArray, YnMessage)) {
-                resultError.setText("No error.");
-            } else {
-                if (resultArray[0] == 1)
-                    resultError.setText("Error at first byte.");
-                if (resultArray[1] == 1)
-                    resultError.setText("Error at second byte.");
-                if (resultArray[2] == 1)
-                    resultError.setText("Error at third byte.");
-                if (resultArray[3] == 1)
-                    resultError.setText("Error at fourth byte.");
+            int errorinmessage = -99;
 
+            if (Arrays.equals(resultArray, YnMessage))
+                {
+                    errorinmessage = 99;
+                    resultdecodedL.setText(IntArrayToString(resultArray));
+                    resultError.setText("No error.");
+                }
+            else {
+                if (resultArray[0] == 1)
+                    {
+                        errorinmessage = 0;
+                        resultError.setText("Error at first byte.");
+                    }
+                if (resultArray[1] == 1)
+                    {
+                        errorinmessage = 1;
+                        resultError.setText("Error at second byte.");
+                    }
+                if (resultArray[2] == 1)
+                    {
+                        errorinmessage = 2;
+                        resultError.setText("Error at third byte.");
+                    }
+                if (resultArray[3] == 1)
+                    {
+                        errorinmessage = 3;
+                        resultError.setText("Error at fourth byte.");
+                    }
+
+            }
+
+            if(errorinmessage!=99)
+            {
+
+                resultdecodedL.setText(IntArrayErrorToString(ErroMessage, errorinmessage));
             }
 
         });
@@ -281,6 +308,15 @@ public class Main extends Application {
 
     private String IntArrayToString(int[] array) {
         String strRet = "";
+        for (int i : array) {
+            strRet += Integer.toString(i);
+        }
+        return strRet;
+    }
+
+    private String IntArrayErrorToString(int[] array, int errorlabel) {
+        String strRet = "";
+        array[errorlabel] = (array[errorlabel] + 1)%2;
         for (int i : array) {
             strRet += Integer.toString(i);
         }
